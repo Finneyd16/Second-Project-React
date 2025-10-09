@@ -26,10 +26,10 @@ const Home = () => {
             </p>
 
             <div className="d-flex flex-wrap">
-              <input
+              <input className="holder"
                 type="text"
                 style={{
-                  width: "400px",
+                  width: "360px",
                   height: "50px",
                   borderTopLeftRadius: "5px",
                   borderBottomLeftRadius: "5px",
@@ -94,11 +94,13 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="pt-5 my-5">
-        <hr className="hr1" style={{ color: "red", width: "3%" }} />
+      <div className="effect6 pt-5 my-5">
+       
 
-        <div className="page2">
+        <div  className="page2">
+           <div className="bar"></div>
           <div className="page2in">
+           
             <h4 className="col-lg-3 col-sm-2" style={{ color: "white" }}>
               What is GPT-3
             </h4>
@@ -141,6 +143,7 @@ const Home = () => {
 
         <div className=" pdiv3 row text-white py-5 my-5">
           <div className="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+            <div className="edit"></div>
             <h4>Chatbots</h4>
             <p className="my-5"style={{color: '#81AFDD',width:'80%'}}>
               We so opinion friends me message as delight. Whole front do of
@@ -149,6 +152,7 @@ const Home = () => {
           </div>
 
           <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div className="edit"></div>
             <h4>Knowledgebase</h4>
             <p className="my-5"style={{color: '#81AFDD',width:'85%'}}>
               At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b
@@ -156,6 +160,7 @@ const Home = () => {
           </div>
 
           <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div className="edit"></div>
             <h4>Education</h4>
             <p className="my-5"style={{color: '#81AFDD',width:'85%'}}>
               At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b
@@ -172,9 +177,13 @@ const Home = () => {
             <p style={{color:'#FF8A71'}} className="py-4">Request Early Access to Get Started</p>
           </div>
           <div style={{color:'white'}} className="future2 d-flex flex-column col-sm-12 col-md-4 col-lg-4">
+            <div className="edit"></div>
              <p style={{width:'45%'}}>Improving end distrusts instantly .</p>
+             <div className="edit"></div>
             <p className="my-3" style={{width:'40%'}}>Become the tended active</p>
+            <div className="edit"></div>
             <p className="my-3" style={{width:'42%'}}>Message or am nothing</p>
+            <div className="edit"></div>
             <p className="my-3" style={{width:'35%'}}>Really boy law county</p>
           </div>
           <div style={{color:'#81AFDD'}} className="future3 d-flex flex-column col-sm-12 col-md-4 col-lg-4">
@@ -188,6 +197,7 @@ const Home = () => {
         </div>
 
       </div>
+      <div></div>
     </>
   );
 };
