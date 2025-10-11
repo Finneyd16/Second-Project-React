@@ -25,22 +25,11 @@ body {
   position: relative;
   min-height: 100vh;
   color: #fff;
-  background-color: blue !important;
+  background-color: #040C18 !important;
 
-  /* background:
-    radial-gradient(420px 300px at 78% 48%, rgba(55,204,247,0.16), transparent 35%),
-    radial-gradient(360px 260px at 55% 48%, rgba(239,148,114,0.12), transparent 30%),
-    linear-gradient(90deg, #01254D 0%, #021C39 30%, #142B45 48%, #0B2436 72%, #041026 100%);
-  background-repeat: no-repeat;
-  background-size: cover; */
+  
 }
-/* body::before{
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(2,6,23,0.25), rgba(2,6,23,0.08) 40%, transparent 70%);
-  pointer-events: none;
-} */
+
 .btns {
   margin-left: 12em;
 }
@@ -61,7 +50,7 @@ body {
 }
 
 .hero1 {
-  padding-top: 5rem;
+  
   display: flex;
   flex-direction: column;
   text-align: start;
@@ -89,7 +78,7 @@ body {
   display: flex;
   gap: 30px;
   padding-left: 12rem !important;
-  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 .hr1 {
   margin-left: 5rem;
@@ -98,6 +87,9 @@ body {
 .page2in {
   display: flex;
   gap: 18rem;
+}
+.no{
+  margin-top: 6rem !important;
 }
 .page2in p {
   text-align: start;
@@ -124,8 +116,12 @@ body {
 .future2 {
   margin-left: 6rem;
 }
+
 .effect6 {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  background: radial-gradient(circle at top left, #1e3a8a, #0a0f2c 70%);
+color: #fff;
+
 }
 .bar{
      width: 35px;
@@ -144,7 +140,36 @@ body {
   box-shadow: 0 0 8px rgba(174, 103, 250, 0.6);
   margin-bottom: 10px;
 }
+.edits{
+    width: 35px;
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #ae67fa, #f49867);
+  box-shadow: 0 0 8px rgba(174, 103, 250, 0.6);
+  margin-bottom: 10px;
+}
 
+
+.p9div{
+  display: flex;
+  flex-direction: column;
+   text-align: start; 
+   justify-content: center;
+   margin-top: 15rem !important;
+ 
+}
+
+.request{
+  padding-right: 886px;
+}
+.page6 {
+  display: flex;
+  justify-content: baseline;
+  text-align: start;
+  align-items: start;
+  width: 37% !important;
+
+}
 
 
 
@@ -194,7 +219,14 @@ body {
   }
 .edit{
   @media (max-width: 580px){
-     margin-left: 16rem;
+     margin-left: 22rem;
+
+  }
+ 
+}
+.edits{
+  @media (max-width: 580px){
+     margin-left: 22rem;
 
   }
  
@@ -215,7 +247,9 @@ body {
 
 @media(max-width:580px){
   body{
-    padding-left: 5rem;
+    padding-left:8rem;
+    
+
   }
   .future{
     display: flex;
@@ -239,7 +273,7 @@ body {
   }
   .future2 p{
     width: 50% !important;
-    margin-left: -5rem !important;
+    margin-left: 10rem !important;
   }
 
   .future3{
@@ -263,11 +297,55 @@ body {
   
 
 }
-.future2 div{
-  margin-left: -230px;
+.edits{
+  margin-left: 35rem;
+  
 }
-.bar{
-  margin-left: -0.01% !important;
+.future2 div{
+  margin-left: -180px;
+}
+
+
+.page4{
+  display: flex;
+  flex-direction: column;
+}
+
+.request{
+  margin:-15rem;
+  padding-right:490px;
+}
+.p9div{
+  margin-top: 8rem;
+  
+}
+.page5{
+  margin: -7rem !important;
+  margin-top: 1rem !important;
+  margin-right: -15rem !important;
+}
+.page6{
+  margin-top: 10rem;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+  gap: 4rem;
+  
+
+}
+.cards1{
+  margin-left: 200px;
+}
+.cards2{
+  margin-left: 200px !important;
+}
+.page6 h1{
+  width: 250% !important;
+  margin-top: 2rem;
+  text-align: center;
 }
 
 }
@@ -303,6 +381,19 @@ body{
     
   
 
+}
+.page5{
+  margin: -7rem !important;
+  margin-top: 1rem !important;
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
+.request{
+  margin:-15rem;
+  padding-right:590px;
+}
+.page6{
+  margin-top: 10rem;
 }
 
 
