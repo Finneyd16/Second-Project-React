@@ -5,9 +5,13 @@
   box-sizing: border-box;
   font-family: Manrope;
 }
+.footer{
+  width: 100% !important;
+  margin: 0 !important;
+}
 #root {
   width: 100%;
-  min-width: 100vh;
+  min-height: 100vh;
 }
 
 .nav-list {
@@ -21,11 +25,16 @@
 
 body {
   overflow-x: hidden;
-  width: 100%;
-  position: relative;
+  width: 100vw;
+  
   min-height: 100vh;
-  color: #fff;
-  background-color: #040C18 !important;
+   background: radial-gradient(circle at top left, #002853, #002853, #040C18, #040C18,#040C18);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+ color:white;
+margin: 0;
+padding: 0;
 
   
 }
@@ -60,7 +69,10 @@ body {
   font-weight: bolder;
   font-size: 350%;
   @media (max-width: 700px) {
-    width: 80%;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 600%;
+    
   }
 }
 .hero1 p {
@@ -178,6 +190,7 @@ color: #fff;
   @media (max-width: 580px) {
     display: flex;
     flex-direction: column;
+    
   }
 }
 
@@ -197,6 +210,7 @@ color: #fff;
     gap: 3rem;
     margin-left: -12rem !important;
   }
+  
 }
 .img5 {
   @media (min-width: 610px) {
@@ -247,10 +261,55 @@ color: #fff;
 
 @media(max-width:580px){
   body{
-    padding-left:8rem;
-    
+    padding-left:rem;
+    min-width: 400vw;
+    margin: 0;
 
   }
+  .hero1 img{
+    width: 100px !important;
+  }
+  .hero p {
+  width: 100%  ;
+  color: #81afdd;
+  font-size: 180%;
+}
+
+
+.head{
+  width: 100% !important;
+  
+  
+}
+.holder{
+  width: 300px !important;
+}
+
+.img5{
+  display: flex;
+  justify-content: center;
+}
+.bhold{
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+  
+  
+}
+.who{
+  display: flex;
+  justify-content: center;
+}
+.effect6{
+  width: 70rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
   .future{
     display: flex;
     flex-direction: column;
@@ -273,7 +332,7 @@ color: #fff;
   }
   .future2 p{
     width: 50% !important;
-    margin-left: 10rem !important;
+   
   }
 
   .future3{
@@ -282,24 +341,55 @@ color: #fff;
     justify-content: center;
     align-items: center;
     text-align: center;
-    line-height: 180%;
+    line-height: 250%;
+    width: 70% !important;
   }
 
   .page2p{
     width:18% !important;
     line-height: 220% !important;
 }
+
+.page2in h4{
+  font-size: 250%;
+}
+
+
+.page2in p{
+  font-size: 180% !important;
+  line-height: 3rem !important;
+}
 .pdiv2 {
+  font-size: 280%;
 
     display: flex !important;
-    width: 150% !important;
     
-  
+  padding-left: 15rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 25rem;
 
 }
+
+.pdiv3 h4{
+  font-size: 250%;
+}
+
+.pdiv3 p{
+  font-size: 180%;
+}
+
+.bar{
+  margin-left: 1rem;
+}
 .edits{
-  margin-left: 35rem;
+  margin-left: 32rem;
   
+}
+
+.no{
+  display: flex !important;
 }
 .future2 div{
   margin-left: -180px;
@@ -309,23 +399,43 @@ color: #fff;
 .page4{
   display: flex;
   flex-direction: column;
+ 
+  margin-left: 2rem;
 }
 
-.request{
-  margin:-15rem;
-  padding-right:490px;
-}
 .p9div{
   margin-top: 8rem;
   
 }
-.page5{
-  margin: -7rem !important;
-  margin-top: 1rem !important;
-  margin-right: -15rem !important;
+
+.p9div p{
+  font-size: 180% !important;
+  line-height: 3rem !important;
 }
+
+
+.p9div h4{
+  font-size: 250%;
+}
+.page5{
+  
+  margin-top: 1rem !important;
+ 
+  width: 100%;
+}
+
+
+.page5 h5{
+  font-size: 190% !important;
+}
+
+
 .page6{
   margin-top: 10rem;
+}
+
+.page6 h1{
+  font-size: 600% !important;
 }
 .cards{
   display: flex;
@@ -336,16 +446,53 @@ color: #fff;
   
 
 }
+.cards p{
+  font-size: 120%;
+}
+
+.cards h4{
+  font-size: 180%;
+}
+.card-body{
+  height: 200% !important;
+}
+
 .cards1{
-  margin-left: 200px;
+  margin-left: 200px !important;
+ 
+}
+
+.cards1 p{
+  font-size: 120% !important;
+}
+.cards1 h4{
+  font-size: 180% !important;
 }
 .cards2{
   margin-left: 200px !important;
+}
+
+.cards2 p{
+  font-size: 120% !important;
+}
+.cards2 h4{
+  font-size: 180% !important;
 }
 .page6 h1{
   width: 250% !important;
   margin-top: 2rem;
   text-align: center;
+}
+.foot{
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.foot img{
+  width: 20% !important;
+  
 }
 
 }

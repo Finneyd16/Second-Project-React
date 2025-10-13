@@ -41,7 +41,7 @@ const Home = () => {
               allow asked of.
             </p>
 
-            <div className="d-flex flex-wrap">
+            <div className="bhold d-flex ">
               <input
                 className="holder"
                 type="text"
@@ -74,7 +74,7 @@ const Home = () => {
               </button>
             </div>
 
-            <div className="py-4">
+            <div className="who py-4">
               <img src={P3} alt="" />
               <small
                 className="px-3"
@@ -136,7 +136,7 @@ const Home = () => {
         </div>
 
         <div className="pdiv2  my-5 pt-4">
-          <div className="">
+          <div className="mano">
             <h2
               style={{
                 background: "linear-gradient(to right, #AE67FA, #F49867)",
@@ -332,7 +332,7 @@ const Home = () => {
                   GPT-3 and Open AI is the <br />
                   future. Let us exlore how it is?
                 </h4>
-                <p style={{ marginTop: "190px" }}>Read Full Article</p>
+                <p className="ma" style={{ marginTop: "190px" }}>Read Full Article</p>
               </div>
             </div>
           </div>

@@ -4,7 +4,7 @@ import P10 from "../assets/P10.png";
 const Footer = () => {
   return (
     <>
-      <footer style={{backgroundColor:'#031B34',height:'100vh',paddingTop:'10rem',width:'100%',margin:'0'}} className="text-center text-lg-start bg-body-tertiary text-muted">
+      <footer style={{backgroundColor:'#031B34',paddingTop:'10rem',width:'100%',margin:'0'}} className=" foot text-center text-lg-start bg-body-tertiary text-muted">
         <section className="">
           <div className="d-flex flex-column align-items-center">
             <h1
