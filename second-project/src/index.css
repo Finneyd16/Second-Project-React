@@ -144,6 +144,10 @@ color: #fff;
   margin-bottom: 10px;
   margin-left: 5rem;
 }
+.navbar-toggler{
+  color: red !important;
+  background-color: #fff ;
+}
 .edit{
     width: 35px;
   height: 4px;
@@ -261,11 +265,22 @@ color: #fff;
 
 @media(max-width:580px){
   body{
-    padding-left:rem;
+    
     min-width: 400vw;
     margin: 0;
 
   }
+  .collapse{
+    display: flex;
+    
+    align-items: center;
+    text-align: center;
+   margin-top: 2rem;
+  }
+  .navbar-toggler{
+  color: red !important;
+  background-color: #fff !important;
+}
   .hero1 img{
     width: 100px !important;
   }
@@ -507,6 +522,9 @@ color: #fff;
     line-height: 280% !important;
     
   
+}
+body{
+  min-width: 200vw;
 }
 .hero{
   display: flex;
