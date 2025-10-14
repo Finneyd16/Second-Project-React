@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  
   P2,
   P3,
   P4,
@@ -9,7 +8,6 @@ import {
   P7,
   P8,
   P9,
- 
   P11,
   P12,
   P13,
@@ -21,10 +19,10 @@ const Home = () => {
   return (
     <>
       <div className="container-fluid my-5">
-        <div className="hero d-flex align-items-center justify-content-center">
+        <div className=" hero d-flex align-items-center justify-content-center">
           <div className=" my-5 hero1">
             <h1
-              className="mb-5"
+              className="mb-5 col-sm-12"
               style={{
                 background: "linear-gradient(to right, #AE67FA, #F49867)",
                 WebkitBackgroundClip: "text",
@@ -34,7 +32,7 @@ const Home = () => {
               Let’s Build Something amazing with GPT-3 OpenAI
             </h1>
 
-            <p className="mb-5">
+            <p className="mb-5 col-sm-12">
               Yet bed any for travelling assistance indulgence unpleasing. Not
               thoughts all exercise blessing. Indulgence way everything joy
               alteration boisterous the attachment. Party we years to order
@@ -156,8 +154,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div className=" pdiv3 row text-white py-5 my-5">
-          <div className="col-lg-4 col-md-6 col-sm-12 mb-4 ">
+        <div className=" pdiv3  text-white py-5 my-5">
+          <div className=" pdiv3i col-lg-4 col-md-6 col-sm-12 mb-4 ">
             <div className="edits"></div>
             <h4>Chatbots</h4>
             <p className="my-5" style={{ color: "#81AFDD", width: "80%" }}>
@@ -166,16 +164,16 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div className=" pdive3i col-lg-4 col-md-6 col-sm-12 mb-4">
             <div className="edits"></div>
             <h4>Knowledgebase</h4>
-            <p className="my-5" style={{ color: "#81AFDD", width: "85%" }}>
+            <p className=" him my-5" style={{ color: "#81AFDD", width: "85%" }}>
               At jointure ladyship an insisted so humanity he. Friendly bachelor
               entrance to on by. As put impossible own apartments b
             </p>
           </div>
 
-          <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div className="pdiv3i col-lg-4 col-md-6 col-sm-12 mb-4">
             <div className="edits"></div>
             <h4>Education</h4>
             <p className="my-5" style={{ color: "#81AFDD", width: "85%" }}>
@@ -187,6 +185,7 @@ const Home = () => {
       </div>
       <div className="py-5 no">
         <div className="row pdiv3">
+          
           <div className="future d-flex flex-column col-sm-12 col-md-4 col-lg-4 mr-">
             <h4
               style={{
@@ -200,7 +199,7 @@ const Home = () => {
               The Future is Now and You Just Need To Realize It. Step into
               Future Today & Make it Happen.
             </h4>
-            <p style={{ color: "#FF8A71", }} className="py-4">
+            <p style={{ color: "#FF8A71" }} className="py-4">
               Request Early Access to Get Started
             </p>
           </div>
@@ -209,21 +208,21 @@ const Home = () => {
             className="future2 d-flex flex-column col-sm-12 col-md-4 col-lg-4"
           >
             <div className="edit"></div>
-            <p className="mb-5" style={{ width: "45%" }}>
+            <h5 className="mb-5" style={{ width: "45%" }}>
               Improving end distrusts instantly .
-            </p>
+            </h5>
             <div className="edit"></div>
-            <p className="mb-4" style={{ width: "30%" }}>
+            <h5 className="mb-4" style={{ width: "30%" }}>
               Become the tended active
-            </p>
+            </h5>
             <div className="edit"></div>
-            <p className="mb-4 " style={{ width: "42%" }}>
+            <h5 className="mb-4 " style={{ width: "42%" }}>
               Message or am nothing
-            </p>
+            </h5>
             <div className="edit"></div>
-            <p className="" style={{ width: "35%" }}>
+            <h5 className="" style={{ width: "35%" }}>
               Really boy law county
-            </p>
+            </h5>
           </div>
           <div
             style={{ color: "#81AFDD" }}
@@ -265,17 +264,25 @@ const Home = () => {
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
               width: "70%",
-              fontWeight: "bolder",lineHeight:'40px'
+              fontWeight: "bolder",
+              lineHeight: "40px",
             }}
           >
             The possibilities are beyond your imagination
           </h4>
-          <p style={{ color: "#81AFDD", fontSize: "80%", width: "74%",lineHeight:'30px' }}>
+          <h6
+            style={{
+              color: "#81AFDD",
+              fontSize: "80%",
+              width: "74%",
+              lineHeight: "30px",
+            }}
+          >
             Yet bed any for travelling assistance indulgence unpleasing. Not
             thoughts all exercise blessing. Indulgence way everything joy
             alteration boisterous the attachment. Party we years to order allow
             asked of.
-          </p>
+          </h6>
           <p className="py-3" style={{ color: "#FF8A71" }}>
             Request Early Access to Get Started
           </p>
@@ -290,7 +297,9 @@ const Home = () => {
       >
         <small className="request ">Request Early Access to Get Started</small>
         <div className="d-flex justify-content-between pt-3">
-          <h5 style={{fontWeight:'bolder',fontSize:'150%'}}>Register today & start exploring the endless possiblities.</h5>
+          <h5 style={{ fontWeight: "bolder", fontSize: "150%" }}>
+            Register today & start exploring the endless possiblities.
+          </h5>
           <button
             style={{
               color: "white",
@@ -304,18 +313,23 @@ const Home = () => {
         </div>
       </div>
       <div className="page6 py-5 my-5 d-flex flex-column">
-        <h1 className="py-5 mb-5"
+        <h1
+          className="py-5 mb-5"
           style={{
             background: "linear-gradient(to right, #AE67FA, #F49867)",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
             fontWeight: "bolder",
-            width:'132%',fontSize:'300%'
+            width: "132%",
+            fontSize: "300%",
           }}
         >
           A lot is happening, We are blogging about it.
         </h1>
-        <div className="cards d-flex PY-5 mx-1" style={{ marginBottom: "100px" }}>
+        <div
+          className="cards d-flex PY-5 mx-1"
+          style={{ marginBottom: "100px" }}
+        >
           <div className="cards1">
             <div style={{ width: "390px" }}>
               <img src={P11} className="card-img-top" alt="" />
@@ -332,7 +346,9 @@ const Home = () => {
                   GPT-3 and Open AI is the <br />
                   future. Let us exlore how it is?
                 </h4>
-                <p className="ma" style={{ marginTop: "190px" }}>Read Full Article</p>
+                <p className="ma" style={{ marginTop: "190px" }}>
+                  Read Full Article
+                </p>
               </div>
             </div>
           </div>
@@ -341,15 +357,24 @@ const Home = () => {
             style={{
               display: "flex",
               justifyContent: "space-between",
-              marginLeft:'5rem'
+              marginLeft: "5rem",
             }}
           >
-            <div style={{marginLeft:"1rem"}}>
+            <div style={{ marginLeft: "1rem" }}>
               <div style={{ width: "280px", marginBottom: "40px" }}>
-                <img style={{width:"20rem",height:'8rem'}} src={P12} className="card-img-top" alt="" />
+                <img
+                  style={{ width: "20rem", height: "8rem" }}
+                  src={P12}
+                  className="card-img-top"
+                  alt=""
+                />
                 <div
                   className="card-body"
-                  style={{ color: "#fff", background: "#042C54",width:"20rem" }}
+                  style={{
+                    color: "#fff",
+                    background: "#042C54",
+                    width: "20rem",
+                  }}
                 >
                   <p style={{ fontSize: "12px" }}>Sep 26, 2021</p>
                   <h5 style={{ fontSize: "17px" }}>
@@ -362,10 +387,20 @@ const Home = () => {
                 </div>
               </div>
               <div style={{ width: "280px" }}>
-                <img style={{width:"20rem",height:'7rem'}} src={P13} className="card-img-top" alt="" />
+                <img
+                  style={{ width: "20rem", height: "7rem" }}
+                  src={P13}
+                  className="card-img-top"
+                  alt=""
+                />
                 <div
                   className="card-body"
-                  style={{ color: "#fff", background: "#042C54",width:"20rem",height:'168px' }}
+                  style={{
+                    color: "#fff",
+                    background: "#042C54",
+                    width: "20rem",
+                    height: "168px",
+                  }}
                 >
                   <p style={{ fontSize: "12px" }}>Sep 26, 2021</p>
                   <h5 style={{ fontSize: "17px" }}>
@@ -378,12 +413,24 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="mx-" style={{marginLeft:"8rem"}}>
-              <div className="" style={{ width: "280px", marginBottom: "40px" }}>
-                <img style={{width:"20rem",height:'8rem'}} src={P14} className="card-img-top" alt="" />
-                <div 
+            <div className="mx-" style={{ marginLeft: "8rem" }}>
+              <div
+                className=""
+                style={{ width: "280px", marginBottom: "40px" }}
+              >
+                <img
+                  style={{ width: "20rem", height: "8rem" }}
+                  src={P14}
+                  className="card-img-top"
+                  alt=""
+                />
+                <div
                   className="card-body"
-                  style={{ color: "#fff", background: "#042C54",width:"20rem" }}
+                  style={{
+                    color: "#fff",
+                    background: "#042C54",
+                    width: "20rem",
+                  }}
                 >
                   <p style={{ fontSize: "12px" }}>Sep 26, 2021</p>
                   <h5 style={{ fontSize: "17px" }}>
@@ -396,10 +443,20 @@ const Home = () => {
                 </div>
               </div>
               <div className="" style={{ width: "280px" }}>
-                <img style={{width:"20rem",height:'7rem'}} src={P15} className="card-img-top" alt="" />
+                <img
+                  style={{ width: "20rem", height: "7rem" }}
+                  src={P15}
+                  className="card-img-top"
+                  alt=""
+                />
                 <div
                   className="card-body"
-                  style={{ color: "#fff", background: "#042C54",width:"20rem",height:'168px'}}
+                  style={{
+                    color: "#fff",
+                    background: "#042C54",
+                    width: "20rem",
+                    height: "168px",
+                  }}
                 >
                   <p style={{ fontSize: "12px" }}>Sep 26, 2021</p>
                   <h5 style={{ fontSize: "17px" }}>
@@ -414,9 +471,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      
       </div>
-     
     </>
   );
 };

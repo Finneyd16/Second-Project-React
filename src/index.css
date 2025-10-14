@@ -157,7 +157,7 @@ body {
 .page2in p {
   text-align: start;
 
-  @media (max-width: 700px) {
+  @media (max-width: 600px) {
     width: 100% !important;
   }
 }
@@ -165,16 +165,15 @@ body {
   display: flex !important;
   text-align: start;
   align-items: center;
-  padding-left: 20px;
-  gap: 25rem;
+  justify-content: space-between;
+  padding-left: 2rem;
 }
 .pdiv3 {
   display: flex;
   text-align: start;
-  padding-left: 2rem;
 }
 .future3 {
-  margin-left: -9rem;
+  margin-left: -12rem;
 }
 .future2 {
   margin-left: 6rem;
@@ -231,9 +230,7 @@ body {
   margin-top: 15rem !important;
 }
 
-.request {
-  padding-right: 886px;
-}
+
 .page6 {
   display: flex;
   justify-content: baseline;
@@ -263,7 +260,7 @@ body {
   @media (max-width: 580px) {
     display: flex;
     gap: 3rem;
-    margin-left: -12rem !important;
+    margin-left: -3rem !important;
   }
 }
 .img5 {
@@ -275,8 +272,7 @@ body {
 
 .pdiv2 p {
   @media (max-width: 580px) {
-    margin-left: -25rem;
-    width: 15% !important;
+    width: 10% !important;
   }
 }
 .pdiv2 p {
@@ -297,20 +293,23 @@ body {
 .pdiv3 {
   @media (max-width: 580px) {
     display: flex;
+    flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
   }
-}
-.pdiv3 p {
-  @media (max-width: 580px) {
-    margin-left: 3rem;
+  .pdiv3i {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center !important;
+    justify-content: center !important;
   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 992px) {
   :root {
-    --container-padding: 1rem;
+    --container-padding: 0;
   }
 
   body {
@@ -338,17 +337,26 @@ body {
   .hero1 img {
     width: 100px !important;
   }
+
   .hero p {
-    width: 100%;
+    width: 110%;
     color: #81afdd;
-    font-size: 180%;
+    font-size: 100%;
   }
 
   .head {
     width: 100% !important;
   }
   .holder {
-    width: 300px !important;
+    width: 70% !important;
+    height: 60px !important;
+  }
+  .btn3 {
+    height: 60px !important;
+    width: 30% !important;
+    max-width: max-content !important;
+    padding-inline: 16px !important;
+    font-size: 14px !important;
   }
 
   .img5 {
@@ -365,8 +373,11 @@ body {
     display: flex;
     justify-content: center;
   }
+  .who small {
+    font-size: 50% !important;
+  }
   .effect6 {
-    width: 70rem;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
@@ -374,6 +385,7 @@ body {
     align-items: center;
     text-align: center;
   }
+
   .future {
     display: flex;
     flex-direction: column;
@@ -381,6 +393,12 @@ body {
     align-items: center;
     text-align: center;
     padding-bottom: 5rem;
+    margin-left: -9rem;
+  }
+  .future h4 {
+    font-size: 140% !important;
+    padding-left: 5rem;
+    margin-left: -7rem;
   }
 
   .future2 {
@@ -390,10 +408,18 @@ body {
     align-items: center;
     text-align: start;
     padding-bottom: 5rem;
-    padding-right: 6rem !important;
   }
-  .future2 p {
-    width: 50% !important;
+  .future2 h5 {
+    margin-right: 15rem !important;
+    font-size: 100%;
+    text-align: start;
+    width: 30% !important;
+  }
+
+  .future3 p {
+    font-size: 70% !important;
+
+    line-height: 150%;
   }
 
   .future3 {
@@ -406,44 +432,45 @@ body {
     width: 70% !important;
   }
 
-  .page2p {
-    width: 18% !important;
-    line-height: 220% !important;
-  }
-
   .page2in h4 {
     font-size: 250%;
   }
 
   .page2in p {
-    font-size: 180% !important;
-    line-height: 3rem !important;
+    font-size: 100% !important;
   }
   .pdiv2 {
-    font-size: 280%;
-
     display: flex !important;
+    flex-direction: column;
+    width: 120%;
+    font-size: 100%;
+    padding-left: 5rem !important;
 
-    padding-left: 15rem;
     justify-content: center;
     text-align: center;
     align-items: center;
-    gap: 25rem;
   }
 
   .pdiv3 h4 {
-    font-size: 250%;
+    font-size: 200%;
   }
 
   .pdiv3 p {
-    font-size: 180%;
+    font-size: 100%;
+    width: 50% !important;
+  }
+  .him {
+    margin-left: 90px;
   }
 
   .bar {
     margin-left: 1rem;
   }
   .edits {
-    margin-left: 32rem;
+    margin-left: 3rem;
+  }
+  .edit {
+    margin-right: 8rem;
   }
 
   .no {
@@ -451,6 +478,14 @@ body {
   }
   .future2 div {
     margin-left: -180px;
+  }
+  .future h4 {
+    width: 100% !important;
+  }
+  .future2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .page4 {
@@ -461,25 +496,44 @@ body {
   }
 
   .p9div {
-    margin-top: 8rem;
-  }
-
-  .p9div p {
-    font-size: 180% !important;
-    line-height: 3rem !important;
+    margin-top: -1px !important;
   }
 
   .p9div h4 {
-    font-size: 250%;
+    font-size: 100%;
+    width: 100% !important;
   }
-  .page5 {
-    margin-top: 1rem !important;
-
+.p9div h6{
+  width: 100% !important~;
+}
+  .page4 img {
     width: 100%;
+    margin-bottom: 4rem;
+    margin-top: -3rem;
+  }
+  .page4 p {
+    font-size: 50% !important;
+  }
+
+  .page5 {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .page5 small {
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+    display: block;
   }
 
   .page5 h5 {
-    font-size: 190% !important;
+    font-size: 90% !important;
+  }
+  .page5 button{
+    font-size: 90% !important;
+    padding: 10px 20px !important;
   }
 
   .page6 {
@@ -576,16 +630,8 @@ body {
   .pdiv2 h2 {
     width: 100% !important;
   }
-  .page5 {
-    margin: -7rem !important;
-    margin-top: 1rem !important;
-    margin-left: 1rem !important;
-    margin-right: 1rem !important;
-  }
-  .request {
-    margin: -15rem;
-    padding-right: 590px;
-  }
+ 
+ 
   .page6 {
     margin-top: 10rem;
   }
