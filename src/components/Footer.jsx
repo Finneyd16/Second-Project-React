@@ -4,7 +4,15 @@ import P10 from "../assets/P10.png";
 const Footer = () => {
   return (
     <>
-      <footer style={{backgroundColor:'#031B34',paddingTop:'10rem',width:'100%',margin:'0'}} className=" foot text-center text-lg-start bg-body-tertiary text-muted">
+      <footer
+        style={{
+          backgroundColor: "#031B34",
+          paddingTop: "10rem",
+          width: "100%",
+          margin: "0",
+        }}
+        className=" foot text-center text-lg-start bg-body-tertiary text-muted"
+      >
         <section className="">
           <div className="d-flex flex-column align-items-center">
             <h1
@@ -46,7 +54,11 @@ const Footer = () => {
               </div>
 
               <div
-                style={{ textAlign: "start", lineHeight: "220%",marginTop:'-10px' }}
+                style={{
+                  textAlign: "start",
+                  lineHeight: "220%",
+                  marginTop: "-10px",
+                }}
                 className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 d-flex flex-column"
               >
                 <small className="text-uppercase fw-bold mb-4">Links</small>
@@ -73,7 +85,11 @@ const Footer = () => {
               </div>
 
               <div
-                style={{ textAlign: "start", lineHeight: "220%",marginTop:'-10px' }}
+                style={{
+                  textAlign: "start",
+                  lineHeight: "220%",
+                  marginTop: "-10px",
+                }}
                 className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 d-flex flex-column"
               >
                 <small className="text-uppercase fw-bold mb-4">Company</small>
@@ -95,7 +111,7 @@ const Footer = () => {
               </div>
 
               <div
-                style={{ textAlign: "start",marginTop:'-3px' }}
+                style={{ textAlign: "start", marginTop: "-3px" }}
                 className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 d-flex flex-column"
               >
                 <h6 className="text-uppercase fw-bold mb-4">Get in touch</h6>
