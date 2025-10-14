@@ -4,22 +4,19 @@ import P1 from "../assets/P1.png";
 const Headers = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        
+      <nav className="navbar navbar-expand-lg navbar-dark bg-body-tertiary">
         <div className="container-fluid ">
           <img className="p1" src={P1} alt="" />
           <button
-            data-mdb-collapse-init
             className="navbar-toggler"
             type="button"
-            data-toggle='collapse'
+            data-toggle="collapse"
             data-target="#navbarText"
             aria-controls="navbarText"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <i className="fas fa-bars"></i>
-            <span className="navbar-toggler-icon"></span>
+            <i className="fa-solid fa-bars toggler-fa" aria-hidden="true"></i>
           </button>
           <div className="collapse navbar-collapse" id="navbarText">
             <ul className="nav-list me-auto list-unstyled d-flex mb-2 mb-lg-0">

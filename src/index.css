@@ -7,7 +7,10 @@
 }
 footer {
   width: 100% !important;
+  position: absolute !important;
+  left: 0 !important;
   margin: 0 !important;
+  padding-inline: 100px !important;
 }
 #root {
   width: 100%;
@@ -40,7 +43,6 @@ body {
   );
   background-repeat: no-repeat;
   background-attachment: fixed;
-  min-height: 100vh;
   color: white;
   margin: 0;
   padding: 0;
@@ -149,8 +151,16 @@ body {
   margin-left: 5rem;
 }
 .navbar-toggler {
-  color: red !important;
-  background-color: #fff;
+  color: inherit !important;
+  background-color: transparent !important;
+  border: none;
+}
+
+/* Font Awesome toggler size and spacing */
+.toggler-fa {
+  font-size: 1.4rem;
+  color: #fff; /* ensure visible on dark background */
+  line-height: 1;
 }
 .edit {
   width: 35px;
@@ -267,8 +277,9 @@ body {
     margin-top: 2rem;
   }
   .navbar-toggler {
-    color: red !important;
-    background-color: #fff !important;
+    color: inherit !important;
+    background-color: transparent !important;
+    border: none !important;
   }
   .hero1 img {
     width: 100px !important;
@@ -473,11 +484,17 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center;
-    
   }
   .foot img {
     width: 20% !important;
   }
+  footer {
+  width: 100% !important;
+  position: static !important;
+  left: 0 !important;
+  margin: 0 !important;
+  padding-inline: 100px !important;
+}
 }
 
 @media (min-width: 610px) and (max-width: 1100px) {
