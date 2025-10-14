@@ -7,6 +7,7 @@ const Footer = () => {
       style={{
         backgroundColor: "#031B34",
         paddingTop: "10rem",
+        width: "100%",
         margin: "0",
       }}
       className=" foot text-center text-lg-start bg-body-tertiary text-muted"
