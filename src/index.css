@@ -499,6 +499,9 @@ body {
   .future h4 {
     width: 100% !important;
   }
+  .future p{
+    margin-left: 6rem;
+  }
   .future2 {
     display: flex;
     flex-direction: column;
