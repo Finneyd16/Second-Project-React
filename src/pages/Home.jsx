@@ -360,7 +360,7 @@ const Home = () => {
               marginLeft: "5rem",
             }}
           >
-            <div style={{ marginLeft: "1rem" }}>
+            <div className="second-card" style={{ marginLeft: "1rem" }}>
               <div style={{ width: "280px", marginBottom: "40px" }}>
                 <img
                   style={{ width: "20rem", height: "8rem" }}
@@ -369,7 +369,7 @@ const Home = () => {
                   alt=""
                 />
                 <div
-                  className="card-body"
+                  className="card-body2"
                   style={{
                     color: "#fff",
                     background: "#042C54",
@@ -394,7 +394,7 @@ const Home = () => {
                   alt=""
                 />
                 <div
-                  className="card-body"
+                  className="card-body2"
                   style={{
                     color: "#fff",
                     background: "#042C54",
@@ -413,7 +413,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="mx-" style={{ marginLeft: "8rem" }}>
+            <div className="third-card" style={{ marginLeft: "8rem" }}>
               <div
                 className=""
                 style={{ width: "280px", marginBottom: "40px" }}
@@ -425,7 +425,7 @@ const Home = () => {
                   alt=""
                 />
                 <div
-                  className="card-body"
+                  className="card-body2"
                   style={{
                     color: "#fff",
                     background: "#042C54",
@@ -450,7 +450,7 @@ const Home = () => {
                   alt=""
                 />
                 <div
-                  className="card-body"
+                  className="card-body2"
                   style={{
                     color: "#fff",
                     background: "#042C54",

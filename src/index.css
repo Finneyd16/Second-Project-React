@@ -324,6 +324,7 @@ body {
 
   .collapse {
     display: flex;
+    
 
     align-items: center;
     text-align: center;
@@ -333,6 +334,18 @@ body {
     color: inherit !important;
     background-color: transparent !important;
     border: none !important;
+    
+   
+  }
+  .nav-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btns{
+    margin-left: -10rem !important;
+    margin-top: 28rem;
   }
   .hero1 img {
     width: 100px !important;
@@ -450,6 +463,11 @@ body {
     text-align: center;
     align-items: center;
   }
+  .pdiv2 h2{
+    width: 80% !important;
+    text-align: start;
+   
+  }
 
   .pdiv3 h4 {
     font-size: 200%;
@@ -457,11 +475,10 @@ body {
 
   .pdiv3 p {
     font-size: 100%;
-    width: 50% !important;
+    width: 100% !important;
+    text-align: start;
   }
-  .him {
-    margin-left: 90px;
-  }
+  
 
   .bar {
     margin-left: 1rem;
@@ -504,7 +521,7 @@ body {
     width: 100% !important;
   }
 .p9div h6{
-  width: 100% !important~;
+  width: 100% !important;
 }
   .page4 img {
     width: 100%;
@@ -538,10 +555,17 @@ body {
 
   .page6 {
     margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .page6 h1 {
-    font-size: 600% !important;
+    font-size: 200% !important;
+   
+    margin-left: 12rem;
+    margin-bottom: -3rem !important;
   }
   .cards {
     display: flex;
@@ -549,34 +573,54 @@ body {
     align-items: center;
     padding-top: 5rem;
     gap: 4rem;
+   
   }
-  .cards p {
-    font-size: 120%;
-  }
+ 
 
   .cards h4 {
-    font-size: 180%;
+    font-size: 100%;
   }
   .card-body {
-    height: 200% !important;
+    height: 100% !important;
+    width: 80%;
+  }
+  .card-body2{
+    width: 80% !important;
+    padding: 8px;
+  }
+
+  .card-body2 h5{
+    font-size: 80% !important;
+    
+  }
+
+  
+  .card-img-top{
+    width: 80% !important;
   }
 
   .cards1 {
-    margin-left: 200px !important;
+    margin-left: 19rem !important;
+    width: 60%;
+    
   }
 
   .cards1 p {
-    font-size: 120% !important;
+    font-size: 50% !important;
   }
   .cards1 h4 {
-    font-size: 180% !important;
+    font-size: 100% !important;
   }
   .cards2 {
     margin-left: 200px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
   }
 
   .cards2 p {
-    font-size: 120% !important;
+    font-size: 50% !important;
   }
   .cards2 h4 {
     font-size: 180% !important;
@@ -585,6 +629,20 @@ body {
     width: 250% !important;
     margin-top: 2rem;
     text-align: center;
+  }
+  .second-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+    margin-left: 4rem !important;
+    
+  }
+  .third-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 4rem;
   }
   .foot {
     display: flex !important;
@@ -595,6 +653,9 @@ body {
   }
   .foot img {
     width: 20% !important;
+  }
+  .foot h1{
+    width: 100% !important;
   }
   footer {
     width: 100% !important;
