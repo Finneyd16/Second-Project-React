@@ -554,6 +554,7 @@ body {
   .page5 button{
     font-size: 90% !important;
     padding: 10px 20px !important;
+    border: none;
   }
 
   .page6 {
