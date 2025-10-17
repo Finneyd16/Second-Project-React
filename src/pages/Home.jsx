@@ -89,7 +89,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="   text-center mx-5 px-5 my-5 img5">
+      <div className=" img5  text-center mx-5 px-5 my-5 ">
         <div className="img5 justify-content-center align-items-center">
           <div className="  my-2">
             <img src={P4} alt="" className="img-fluid" />
@@ -185,7 +185,6 @@ const Home = () => {
       </div>
       <div className="py-5 no">
         <div className="row pdiv3">
-          
           <div className="future d-flex flex-column col-sm-12 col-md-4 col-lg-4 mr-">
             <h4
               style={{
@@ -295,7 +294,7 @@ const Home = () => {
           borderRadius: "7px",
         }}
       >
-        <small className="request ">Request Early Access to Get Started</small>
+        <small style={{marginLeft:'-889px'}} className="request  ">Request Early Access to Get Started</small>
         <div className="d-flex justify-content-between pt-3">
           <h5 style={{ fontWeight: "bolder", fontSize: "150%" }}>
             Register today & start exploring the endless possiblities.
@@ -332,7 +331,7 @@ const Home = () => {
         >
           <div className="cards1">
             <div style={{ width: "390px" }}>
-              <img src={P11} className="card-img-top" alt="" />
+              <img src={P11} className="card-img-top1" alt="" />
               <div
                 className="card-body"
                 style={{
@@ -369,7 +368,7 @@ const Home = () => {
                   alt=""
                 />
                 <div
-                  className="card-body2"
+                  className=" p-3 card-body2"
                   style={{
                     color: "#fff",
                     background: "#042C54",
@@ -394,7 +393,7 @@ const Home = () => {
                   alt=""
                 />
                 <div
-                  className="card-body2"
+                  className=" p-3 card-body2"
                   style={{
                     color: "#fff",
                     background: "#042C54",
@@ -425,7 +424,7 @@ const Home = () => {
                   alt=""
                 />
                 <div
-                  className="card-body2"
+                  className=" p-3 card-body2"
                   style={{
                     color: "#fff",
                     background: "#042C54",
@@ -450,7 +449,7 @@ const Home = () => {
                   alt=""
                 />
                 <div
-                  className="card-body2"
+                  className=" p-3 card-body2"
                   style={{
                     color: "#fff",
                     background: "#042C54",

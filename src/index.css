@@ -92,7 +92,7 @@ body {
   text-align: start;
   width: 100%;
   max-width: 100%;
-  margin: 0 auto;
+  margin-left: -35px;
   padding: 0 var(--container-padding);
 }
 
@@ -103,7 +103,10 @@ body {
   line-height: 1.2;
   margin-bottom: 1.5rem;
 }
-
+.head{
+  margin-right: -55px;
+  margin-top: -120px;
+}
 @media (max-width: 700px) {
   .hero1 h1 {
     font-size: 2.5rem;
@@ -259,6 +262,7 @@ body {
 .img5 {
   @media (max-width: 580px) {
     display: flex;
+ 
     gap: 3rem;
     margin-left: -3rem !important;
   }
@@ -359,6 +363,8 @@ body {
 
   .head {
     width: 100% !important;
+    margin-top: 2rem;
+    margin-left: -60px;
   }
   .holder {
     width: 70% !important;
@@ -375,6 +381,7 @@ body {
   .img5 {
     display: flex;
     justify-content: center;
+    
   }
   .bhold {
     align-items: center;
@@ -589,7 +596,7 @@ body {
     width: 80%;
   }
   .card-body2{
-    width: 80% !important;
+    width: 100% !important;
     padding: 8px;
   }
 
@@ -598,9 +605,11 @@ body {
     
   }
 
-  
-  .card-img-top{
+  .card-img-top1{
     width: 80% !important;
+  }
+  .card-img-top{
+    width: 100% !important;
   }
 
   .cards1 {
@@ -620,6 +629,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   
   }
 
@@ -639,14 +649,14 @@ body {
     flex-direction: column;
     align-items: center;
     margin-bottom: 3rem;
-    margin-left: 4rem !important;
+    
     
   }
   .third-card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 4rem;
+    margin-right: 7rem;
   }
   .foot {
     display: flex !important;
@@ -668,6 +678,9 @@ body {
     margin: 0 !important;
     padding-inline: 35px !important;
     width: 100%;
+  }
+  .request{
+    margin-left: 1px !important;
   }
 }
 
