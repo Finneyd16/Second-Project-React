@@ -208,7 +208,7 @@ const Home = () => {
           >
             <div className="edit"></div>
             <h5 className="mb-5" style={{ width: "45%" }}>
-              Improving end distrusts instantly .
+              Improving end distrusts instantly 
             </h5>
             <div className="edit"></div>
             <h5 className="mb-4" style={{ width: "30%" }}>
@@ -336,8 +336,9 @@ const Home = () => {
                 className="card-body"
                 style={{
                   color: "#fff",
-                  height: "360px",
+                  height: "380px",
                   background: "#042C54",
+                  width:'418px'
                 }}
               >
                 <p>Sep 26, 2021</p>
