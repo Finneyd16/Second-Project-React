@@ -333,10 +333,10 @@ const Home = () => {
             <div style={{ width: "390px" }}>
               <img src={P11} className="card-img-top1" alt="" />
               <div
-                className="card-body"
+                className=" p-3 card-body"
                 style={{
                   color: "#fff",
-                  height: "380px",
+                  height: "340px",
                   background: "#042C54",
                   width:'418px'
                 }}
